@@ -1,13 +1,3 @@
-.col {
-    border: 3px solid red;
-}
-.color1 {
-    background-color: red;
-}
-.color2 {
-    background-color: green;
-}
-
 .header {
     height: 100vh;
     display: flex;
@@ -47,7 +37,10 @@
     width: 100%;
     height: 100%;
 }
-
+.cover22 {
+    width: 100%;
+    height: 100%;
+}
 .cover2 {
     background-size: cover;
     width: 100%;
@@ -156,9 +149,12 @@ li{
     padding: 25px;
     font-family: 'Questrial', sans-serif;
 }
+.c22{
+    background: red;
+    border: 0px;
+}
 .c22:hover{
-    background: #EA2923;
-    color: #FFFFFF;
+    background: #3753FF;
 }
 .center1{
     text-align: center;
@@ -312,6 +308,90 @@ h2{
 .ga1:hover{
     background: #E52A2A;
     padding: 2px;        
+}/* carrito */
+.containermaestro {
+    border: 2px solid black;
+    width: 80%;
+    margin: 0 auto;
+}
+.carrito {
+    margin: 0 auto;
+    
+    display: flex;
+    padding: 20px;
+}
+.image-car {
+    flex-basis: 50%;
+}
+.contenedor {
+    flex-basis: 50%;
+}
+
+.supercarrito {
+    background-color: ivory;
+}
+.com{
+    width: 400px;
+    margin-left: 480px;
+}
+.bb1{
+    margin-left: 100px;
+    background: red;
+    border: 0px;
+}
+.bb11{
+    margin-left: 120px;
+    background: red;
+    border: 0px;
+}
+.bb1:hover{
+    background: #3753FF;
+}
+.bb11:hover{
+    background: #3753FF;
+}
+.hh{
+    font-size: 25px;
+}
+.bbb{
+    background: red;
+    border: 0px;
+}
+.bbb:hover{
+    background: #3753FF;
+}
+/* carrito */
+.containermaestro {
+    border: 2px solid black;
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Questrial', sans-serif;
+}
+.carrito {
+    margin: 0 auto;
+    color: black;
+    display: flex;
+    padding: 20px;
+}
+.image-car {
+    flex-basis: 80%;
+    background: ivory;
+}
+.contenedor {
+    width:  50%;
+}
+.le{
+    margin-left: 50px;
+    width: 300px;
+    font-family: 'Questrial', sans-serif;
+}
+.le1{
+    margin-left: 120px;
+    width: 200px;
+    font-family: 'Questrial', sans-serif;
+}
+.supercarrito {
+    background-color: ivory;
 }
 input[type=text], input[type=email], input[type=number],select, textarea {
     width: 70%;
@@ -410,6 +490,45 @@ input[type=submit]:hover, input[type=reset]:hover {
 
 
 @media (max-width: 700px) {
+    .containermaestro {
+    border: 2px solid black;
+    width: 85%;
+    margin: 0 auto;
+    font-family: 'Questrial', sans-serif;
+}
+.carrito {
+    margin: 0 auto;
+    color: black;
+    display: flex;
+}
+.contenedor {
+    width:  400px;
+}
+.le{
+    margin-left: 0px;
+    width: 150px;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+}
+.le1{
+    margin-left: 0px;
+    font-size: 22px;
+    width: 10px;
+    font-family: 'Questrial', sans-serif;
+}
+.supercarrito {
+    text-align: left;
+    background-color: ivory;
+    font-size: 12px;
+    width: 10px;
+}
+.com{
+    margin-left: 43px;
+}
+    .cover22{
+        width: 160px;
+    }
     .section1{
         margin-left: 20px;
         margin-right: 20px;
@@ -504,7 +623,7 @@ margin: 6px;
     padding-left: 15px;
     }
     .slide-banner {
-    height: 42vh;
+    height: 40vh;
 }
 .gal {
     height: 60vh;
